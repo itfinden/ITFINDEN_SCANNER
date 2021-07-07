@@ -232,8 +232,8 @@ function print_scan_result {
 	echo "Ruta            : $PATHSCAN" >> $LOGFILE
 	echo "Tipo Scan       : $SCAN_TYPE" >> $LOGFILE
 	echo "Scan ID         : $SCANID" >> $LOGFILE
-	echo "Total Scaneo    : $TOTAL file[s]" >> $LOGFILE
-	echo "Total Archivo   : $TOTAL_FILES file[s]" >> $LOGFILE
+	echo "Total Scaneo    : $TOTAL archivo(s)" >> $LOGFILE
+	echo "Total Archivo   : $TOTAL_FILES archivo(s)" >> $LOGFILE
 	echo "Total Virus     : Encontrados $TOTAL_MALICIOUS archivos infectados" >> $LOGFILE
 	echo "Modo Action     : $MESSAGE" >> $LOGFILE
 	echo "Log File        : $LOGFILE" >> $LOGFILE
